@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM debian:stable-slim
 ENV WARP_LICENSE=
 ENV FAMILIES_MODE=off
 EXPOSE 1080/tcp
